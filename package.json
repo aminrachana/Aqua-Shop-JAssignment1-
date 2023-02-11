@@ -1,0 +1,23 @@
+{
+  "name": "aqua-shop",
+  "version": "1.0.0",
+  "description": "JAssignment 1 with using pug, Node.js and mongodb Atlas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Rachana Amin",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "mongodb": "^5.0.0",
+    "pug": "^3.0.0"
+  }
+}

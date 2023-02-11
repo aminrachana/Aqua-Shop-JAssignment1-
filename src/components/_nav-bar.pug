@@ -1,0 +1,8 @@
+include ./_main-nav
+
+mixin nav-bar(activeRoute)
+  div(class="nav-container mb-3")
+    nav(class="navbar navbar-expand-md navbar-light bg-light p-0")
+      div(class="container wave-container p-3")
+        div(class="navbar-brand logo")
+        +main-nav(activeRoute)

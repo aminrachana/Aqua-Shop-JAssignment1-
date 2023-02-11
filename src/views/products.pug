@@ -1,0 +1,16 @@
+extends ../components/layout
+
+
+block content
+  div
+    h1.main-header.text-center Our Products
+      
+    div(class="row").pt-5
+      each post in view
+        div(class="col-md-4 mb-4")
+          div(class="card")
+            img(src=post.image, alt=post.name, width="100", class="card-img-top p-4") 
+            div(class="card-body")
+              h5(class="card-title")= post.name
+              h6.card-subtitle.mb-2.text-dark= "$ "+post.price
+              p(class="card-text")= post.description
